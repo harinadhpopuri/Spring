@@ -1,0 +1,9 @@
+package com.hari.springjdbc.dao.rowmapper;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.hari.springjdbc.dto.Employee;
+
+public class EmployeeRowMapper implements RowMapper<Employee> {
+
+}

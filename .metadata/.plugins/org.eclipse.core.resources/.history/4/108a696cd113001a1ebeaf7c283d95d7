@@ -1,0 +1,5 @@
+package com.hari.springadvanced.stereotype.annotaions;
+
+public class Profile {
+
+}

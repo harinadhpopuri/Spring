@@ -1,0 +1,5 @@
+package com.hari.springjdbc.dao;
+
+public interface EmployeeDAO {
+
+}

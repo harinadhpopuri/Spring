@@ -1,0 +1,9 @@
+package com.hari.springjdbc.dao;
+
+import com.hari.springjdbc.dto.Employee;
+
+public interface EmployeeDAO {
+	
+	int create(Employee employee);
+
+}

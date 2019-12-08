@@ -1,0 +1,5 @@
+package com.hari.springjdbc.assesment.dao;
+
+public interface PassangerDao {
+
+}

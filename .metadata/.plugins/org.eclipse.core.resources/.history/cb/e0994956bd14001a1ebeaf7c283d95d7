@@ -1,0 +1,42 @@
+package com.hari.springjdbc.assesment.dao.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+import com.hari.springjdbc.assesment.dao.PassangerDao;
+import com.hari.springjdbc.assesment.dto.Passanger;
+@Component("passangerDao")
+public class PassangerDaoImpl implements PassangerDao {
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	
+	@Override
+	public int create(Passanger passanger) {
+		
+		return 0;
+	}
+
+	@Override
+	public int update(Passanger passanger) {
+		return 0;
+	}
+
+	@Override
+	public int delete(int id) {
+		return 0;
+	}
+
+	@Override
+	public List<Passanger> read() {
+		return null;
+	}
+
+	@Override
+	public Passanger read(int id) {
+		return null;
+	}
+
+}

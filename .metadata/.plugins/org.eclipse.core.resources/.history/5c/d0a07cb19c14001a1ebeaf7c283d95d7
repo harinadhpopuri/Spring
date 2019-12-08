@@ -1,0 +1,11 @@
+package com.hari.springadvanced.injecting.interfaces;
+
+public class OrderBOImpl implements OrderBO {
+
+	@Override
+	public void createOrder() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.hari.springadvanced.standalone.collections;
+
+public class ProductList {
+
+}

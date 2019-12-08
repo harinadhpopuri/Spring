@@ -1,0 +1,11 @@
+package com.hari.springadvanced.autowiring;
+
+public class Employee {
+	private Address address;
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", address=" + address + "]";
+	}
+
+}

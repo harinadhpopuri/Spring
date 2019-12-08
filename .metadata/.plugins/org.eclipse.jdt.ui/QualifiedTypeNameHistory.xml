@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="com.hari.springcore.properties.CountriesAndLanguages"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+<fullyQualifiedTypeName name="javax.security.auth.Destroyable"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+<fullyQualifiedTypeName name="com.hari.springcore.assesment2.TicketReservation"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+<fullyQualifiedTypeName name="com.hari.springcore.assesment4.PropertiesPlaceholder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.hari.springadvanced.standalone.collections.ProductList"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="com.hari.springadvanced.stereotype.annotaions.Instructor"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="com.hari.springadvanced.stereotype.annotaions.Profile"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.hari.springjdbc.dao.EmployeeDAO"/>
+<fullyQualifiedTypeName name="com.hari.springjdbc.dto.Employee"/>
+<fullyQualifiedTypeName name="com.hari.springjdbc.dao.rowmapper.EmployeeRowMapper"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.hari.springjdbc.assesment.rowmapper.PassangerRowMapper"/>
+<fullyQualifiedTypeName name="com.hari.springjdbc.assesment.dao.PassangerDao"/>
+<fullyQualifiedTypeName name="com.hari.springjdbc.assesment.dto.Passanger"/>
+</qualifiedTypeNameHistroy>

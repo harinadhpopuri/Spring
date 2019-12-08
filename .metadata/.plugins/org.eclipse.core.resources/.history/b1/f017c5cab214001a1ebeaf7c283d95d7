@@ -1,0 +1,14 @@
+package com.hari.springjdbc.dao.impl;
+
+import com.hari.springjdbc.dao.EmployeeDAO;
+import com.hari.springjdbc.dto.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Override
+	public int create(Employee employee) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

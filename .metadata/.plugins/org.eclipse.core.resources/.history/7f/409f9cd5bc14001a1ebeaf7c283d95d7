@@ -1,0 +1,40 @@
+package com.hari.springjdbc.assesment.dao.impl;
+
+import java.util.List;
+
+import com.hari.springjdbc.assesment.dao.PassangerDao;
+import com.hari.springjdbc.assesment.dto.Passanger;
+
+public class PassangerDaoImpl implements PassangerDao {
+
+	@Override
+	public int create(Passanger passanger) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int update(Passanger passanger) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delete(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Passanger> read() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Passanger read(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

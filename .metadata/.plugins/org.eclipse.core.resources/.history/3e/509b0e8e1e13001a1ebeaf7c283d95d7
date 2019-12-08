@@ -1,0 +1,18 @@
+package com.hari.springcore.lc.xmlconfig;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/hari/springcore/lc/xmlconfig/config.xml");
+		Patient patient = (Patient) context.getBean("patient");
+		System.out.println(patient);
+		
+		//we need to register destroy hook to call destory method at end of destroying the application context.
+		//Use AbstractApplicationContext - super class to ApplicationContext
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=springadvanced/src\/main\/java&lt;com.hari.springadvanced.injecting.interfaces{OrderBO.java[OrderBO" modifiers="513" timestamp="1575247757379"/>
+<typeInfo handle="=springadvanced/src\/main\/java&lt;com.hari.springadvanced.injecting.interfaces{OrderDAO.java[OrderDAO" modifiers="513" timestamp="1575247403399"/>
+<typeInfo handle="=springjdbc/C:\/Users\/hpopuri\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.3.6.RELEASE\/spring-jdbc-4.3.6.RELEASE.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1575253608203"/>
+<typeInfo handle="=springjdbc/C:\/Users\/hpopuri\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.3.6.RELEASE\/spring-jdbc-4.3.6.RELEASE.jar&lt;org.springframework.jdbc.core(JdbcTemplate.class[JdbcTemplate" modifiers="33" timestamp="1575253608203"/>
+<typeInfo handle="=springjdbc/src\/main\/java&lt;com.hari.springjdbc.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1575256840014"/>
+<typeInfo handle="=springjdbc/src\/main\/java&lt;com.hari.springjdbc.assesment.dao{PassangerDao.java[PassangerDao" modifiers="513" timestamp="1575261146354"/>
+<typeInfo handle="=springjdbc/C:\/Users\/hpopuri\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.3.6.RELEASE\/spring-jdbc-4.3.6.RELEASE.jar&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1575253608203"/>
+</typeInfoHistroy>

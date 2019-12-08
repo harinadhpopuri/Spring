@@ -1,0 +1,47 @@
+1574860070803	Encapsulate field 'id'
+1574860080841	Encapsulate field 'name'
+1574861331543	Delete element
+1574861570711	Move 'config.xml' to 'java'
+1575030915498	Encapsulate field 'name'
+1575030924268	Encapsulate field 'departments'
+1575031410642	Rename resource 'ListConfig.xml'
+1575032398321	Encapsulate field 'name'
+1575032403885	Encapsulate field 'makes'
+1575032416135	Copy file
+1575032424687	Rename resource 'listconfig.xml'
+1575032522497	Copy compilation unit
+1575033273214	Encapsulate field 'id'
+1575033278899	Encapsulate field 'products'
+1575033319954	Copy file
+1575033329138	Copy compilation unit
+1575033339625	Rename resource 'config.xml'
+1575077388292	Encapsulate field 'countryAndLang'
+1575077412503	Copy file
+1575077541249	Copy compilation unit
+1575078247090	Encapsulate field 'scores'
+1575078533128	Copy file
+1575078541109	Copy compilation unit
+1575079488881	Encapsulate field 'item'
+1575079509775	Copy file
+1575079702556	Copy compilation unit
+1575082723741	Encapsulate field 'id'
+1575082824765	Copy file
+1575082910332	Copy compilation unit
+1575083619481	Delete element
+1575083626674	Copy elements
+1575084320704	Copy elements
+1575084429551	Rename package 'com.hari.springcore.lc.annotaions'
+1575085133529	Encapsulate field 'id'
+1575085214529	Copy file
+1575085261114	Copy compilation unit
+1575087390498	Copy file
+1575087473036	Copy compilation unit
+1575088350270	Copy file
+1575089529734	Copy file
+1575089696132	Copy compilation unit
+1575090569005	Copy compilation units
+1575090634494	Copy file
+1575094336007	Copy file
+1575094543028	Copy compilation unit
+1575153147212	Copy elements
+1575153410944	Copy elements

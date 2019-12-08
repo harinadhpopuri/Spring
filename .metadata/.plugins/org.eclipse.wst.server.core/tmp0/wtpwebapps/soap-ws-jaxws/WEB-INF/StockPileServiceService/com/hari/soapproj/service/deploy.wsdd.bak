@@ -1,0 +1,38 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from StockPileServiceService WSDL service -->
+
+  <service name="StockPileService" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://service.soapproj.hari.com"/>
+      <parameter name="wsdlServiceElement" value="StockPileServiceService"/>
+      <parameter name="schemaQualified" value="http://service.soapproj.hari.com"/>
+      <parameter name="wsdlServicePort" value="StockPileService"/>
+      <parameter name="className" value="com.hari.soapproj.service.StockPileServiceSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="StockPileService"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="remove" qname="operNS:remove" xmlns:operNS="http://service.soapproj.hari.com" returnQName="retNS:removeReturn" xmlns:retNS="http://service.soapproj.hari.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://service.soapproj.hari.com" type="tns:long" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="addStock" qname="operNS:addStock" xmlns:operNS="http://service.soapproj.hari.com" returnQName="retNS:addStockReturn" xmlns:retNS="http://service.soapproj.hari.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:stockId" xmlns:pns="http://service.soapproj.hari.com" type="tns:long" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:stockName" xmlns:pns="http://service.soapproj.hari.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:stockPrice" xmlns:pns="http://service.soapproj.hari.com" type="tns:float" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:quantity" xmlns:pns="http://service.soapproj.hari.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:totalPrice" xmlns:pns="http://service.soapproj.hari.com" type="tns:float" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="getCurrentHoldings" qname="operNS:getCurrentHoldings" xmlns:operNS="http://service.soapproj.hari.com" returnQName="retNS:getCurrentHoldingsReturn" xmlns:retNS="http://service.soapproj.hari.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <parameter name="allowedMethods" value="addStock getCurrentHoldings remove"/>
+
+  </service>
+</deployment>

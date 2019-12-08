@@ -1,0 +1,20 @@
+package com.hari.springjdbc.dto;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.hari.springjdbc.dao.EmployeeDAO;
+
+public class TestAnnotations {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/hari/springjdbc/dto/config.xml");
+		EmployeeDAO empDao = (EmployeeDAO) context.getBean("empDao");		
+		List<Employee> result = empDao.read();
+		System.out.println("No of records deleted are :"+result);
+
+	}
+
+}

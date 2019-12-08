@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans">
+	<bean name="scores" class="com.hari.springcore.reftypes.Scores"
+		p:maths="80" p:physics="98" p:chemistry="87" />
+	<bean name="student" class="com.hari.springcore.reftypes.Student">
+		<property name="scores">
+			<ref bean="scores" />
+		</property>
+	</bean>
+	<!-- Other ways to refer Object -->
+	<bean name="student" class="com.hari.springcore.reftypes.Student">
+		<property name="scores" ref="scores"/>		
+	</bean>
+	
+	<bean name="student" class="com.hari.springcore.reftypes.Student" p:scores-ref="scores">
+	
+</beans>

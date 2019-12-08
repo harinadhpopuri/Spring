@@ -1,0 +1,5 @@
+package com.hari.springjdbc.assesment.dto;
+
+public class Passanger {
+
+}

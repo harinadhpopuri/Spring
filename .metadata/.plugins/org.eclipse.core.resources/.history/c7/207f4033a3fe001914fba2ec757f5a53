@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package com.personal.defaultmethods;
+
+import java.util.Comparator;
+
+/**
+ * @author hpopuri
+ *
+ */
+public interface Card extends Comparable<Card>{
+
+	public enum Suit{
+		DIAMONDS(1,"Diamonds"),
+		SPADES(2,"Spades"),
+		HEARTS(3,"Hearts"),
+		CUBES(4,"Cubes");
+		
+		private final int value;
+		private final String text;
+		
+	}
+
+}

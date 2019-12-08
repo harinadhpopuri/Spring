@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.personal.innerclasses.LocalInner&apos; to &apos;DataStrucutre&apos;&#x0D;&#x0A;- Original project: &apos;CoreJavaConceptsExamples&apos;&#x0D;&#x0A;- Original element: &apos;com.personal.innerclasses.LocalInner&apos;&#x0D;&#x0A;- Renamed element: &apos;com.personal.innerclasses.DataStrucutre&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LocalInner&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.personal.innerclasses{LocalInner.java[LocalInner" matchStrategy="1" name="DataStrucutre" qualified="false" references="true" similarDeclarations="false" stamp="1572784966651" textual="false" version="1.0"/>
+</session>

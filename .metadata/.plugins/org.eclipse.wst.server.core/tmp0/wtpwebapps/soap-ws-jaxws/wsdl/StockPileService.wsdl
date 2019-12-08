@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://service.soapproj.hari.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://service.soapproj.hari.com" xmlns:intf="http://service.soapproj.hari.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://service.soapproj.hari.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="remove">
+    <complexType>
+     <sequence>
+      <element name="id" type="xsd:long"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="removeResponse">
+    <complexType>
+     <sequence>
+      <element name="removeReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addStock">
+    <complexType>
+     <sequence>
+      <element name="stockId" type="xsd:long"/>
+      <element name="stockName" type="xsd:string"/>
+      <element name="stockPrice" type="xsd:float"/>
+      <element name="quantity" type="xsd:int"/>
+      <element name="totalPrice" type="xsd:float"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addStockResponse">
+    <complexType>
+     <sequence>
+      <element name="addStockReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCurrentHoldings">
+    <complexType/>
+   </element>
+   <element name="getCurrentHoldingsResponse">
+    <complexType>
+     <sequence>
+      <element name="getCurrentHoldingsReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getCurrentHoldingsResponse">
+
+      <wsdl:part element="impl:getCurrentHoldingsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addStockResponse">
+
+      <wsdl:part element="impl:addStockResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCurrentHoldingsRequest">
+
+      <wsdl:part element="impl:getCurrentHoldings" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="removeRequest">
+
+      <wsdl:part element="impl:remove" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="removeResponse">
+
+      <wsdl:part element="impl:removeResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addStockRequest">
+
+      <wsdl:part element="impl:addStock" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="StockPileService">
+
+      <wsdl:operation name="remove">
+
+         <wsdl:input message="impl:removeRequest" name="removeRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:removeResponse" name="removeResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addStock">
+
+         <wsdl:input message="impl:addStockRequest" name="addStockRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addStockResponse" name="addStockResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCurrentHoldings">
+
+         <wsdl:input message="impl:getCurrentHoldingsRequest" name="getCurrentHoldingsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getCurrentHoldingsResponse" name="getCurrentHoldingsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="StockPileServiceSoapBinding" type="impl:StockPileService">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="remove">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="removeRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="removeResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addStock">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addStockRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addStockResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCurrentHoldings">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getCurrentHoldingsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getCurrentHoldingsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="StockPileServiceService">
+
+      <wsdl:port binding="impl:StockPileServiceSoapBinding" name="StockPileService">
+
+         <wsdlsoap:address location="http://localhost:8080/soap-ws-jaxws/services/StockPileService"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

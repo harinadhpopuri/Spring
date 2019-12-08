@@ -1,0 +1,7 @@
+package com.hari.springjdbc.assesment.rowmapper;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class PassangerRowMapper implements RowMapper<T> {
+
+}

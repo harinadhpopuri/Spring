@@ -1,0 +1,11 @@
+package com.hari.springadvanced.stereotype.annotaions;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Profile {
+	@Value("Java Solution Specialist")
+	String role;
+	@Value("Deloitte")
+	String company;
+
+}

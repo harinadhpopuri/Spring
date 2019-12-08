@@ -1,0 +1,5 @@
+package com.hari.springjdbc.dto;
+
+public class Employee {
+
+}

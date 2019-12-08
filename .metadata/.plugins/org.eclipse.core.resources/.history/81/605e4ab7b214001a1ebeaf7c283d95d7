@@ -1,0 +1,7 @@
+package com.hari.springjdbc.dao;
+
+public interface EmployeeDAO {
+	
+	int create(Employee employee);
+
+}

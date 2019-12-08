@@ -1,0 +1,8 @@
+package com.hari.springadvanced.autowiring.annotations.qualifier;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.hari.springadvanced.autowiring.annotations
+	}
+}
+
